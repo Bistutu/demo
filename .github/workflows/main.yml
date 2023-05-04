@@ -3,10 +3,10 @@ name: Build Native Executable with GraalVM
 on:
   push:
     branches:
-      - main # 修改成你的默认分支名称
+      - master # 修改成你的默认分支名称
   pull_request:
     branches:
-      - main # 修改成你的默认分支名称
+      - master # 修改成你的默认分支名称
 
 jobs:
   build:
