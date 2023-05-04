@@ -26,6 +26,7 @@ jobs:
       uses: graalvm/setup-graalvm@v1
       with:
         version: '22.0.0' # 更改为所需的GraalVM版本，确保支持JDK 17
+        java-version: '17'
 
     - name: Install Maven
       run: |
